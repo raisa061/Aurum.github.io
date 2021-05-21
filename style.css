@@ -50,6 +50,9 @@
     font-family: opensemi;
     padding: 12px;
 }
+.mynav li a:hover{
+    color: #A18142;
+}
 
 /*img section css here*/
 .img_row{
