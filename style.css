@@ -1,0 +1,242 @@
+@font-face {
+    src: url("fonts/OpenSans-Bold.ttf");
+    font-family: openbold;
+}
+@font-face {
+    src: url("fonts/OpenSans-SemiBold.ttf");
+    font-family: opensemi;
+}
+@font-face {
+    src: url("fonts/OpenSans-Light.ttf");
+    font-family: openlight;
+}
+@font-face {
+    src: url("fonts/Roboto-Medium.ttf");
+    font-family: robomedium;
+}
+@font-face {
+    src: url("fonts/Roboto-Light.ttf");
+    font-family: robolight;
+}
+@font-face {
+    src: url("fonts/Roboto-Thin.ttf");
+    font-family: robothin;
+}
+@font-face {
+    src: url("fonts/Roboto-Black.ttf");
+    font-family: roboblack;
+}
+@font-face {
+    src: url("fonts/RobotoCondensed-Bold.ttf");
+    font-family: robocondensed;
+}
+@font-face {
+    src: url("fonts/Font Awesome 5 Brands-Regular-400.otf");
+    font-family: fontawesome;
+}
+
+
+
+/*logo css here*/
+.logo{
+    height: 65px;
+    width: 200px;
+}
+
+/*nav css here*/
+.mynav li a{
+    color: #0b2e13;
+    font-size: 12px;
+    font-family: opensemi;
+    padding: 12px;
+}
+
+/*img section css here*/
+.img_row{
+    background-image: url("images/bg-01.svg");
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+.lead_text{
+    color: #B86FAC;
+    font-family: robotocondensed;
+    margin: 120px 0 0px -55px;
+    font-size: 26px;
+}
+
+/*collections section css here*/
+.explore{
+    margin-left: 30px;
+}
+.collections_section{
+    margin: 80px 0;
+}
+.collections h4{
+    font-weight: 600;
+    font-family: openlight;
+}
+.collections p{
+    color: #A18142;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.text{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+.text p{
+    color: #AD875E;
+    text-transform: capitalize;
+}
+.img1{
+    background-image: url("images/chain1.png");
+    background-size: cover;
+    height: 322px;
+    margin-right: 1px;
+}
+.img2{
+    background-image: url("images/chain2.png");
+    background-size: cover;
+}
+
+/*bespoke section css here*/
+.bespoke{
+    background-image: url("images/home_bespoke.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 90px;
+}
+.bespoke_content{
+    margin-top: 115px;
+    margin-left: 70px;
+    margin-right: 66px;
+}
+.bespoke_content h2{
+    color: #8F8584;
+    font-family: Roboto;
+    margin: 15px 0;
+}
+.bespoke_content p{
+    color: #484848;
+    font-size: 12px;
+    line-height: 2;
+    font-family: openlight;
+    font-weight: 600;
+}
+.bespoke_content a{
+    color: #A98851;
+    font-size: 16px;
+    font-family: opensemi;
+}
+.bespoke_content a:hover{
+    text-decoration: none;
+    color: #A6894A;
+}
+
+/*hashtag section css here*/
+.hash h2{
+    color: #A1A0A0;
+    font-family: openlight;
+    letter-spacing: 2px;
+}
+.hash span{
+    font-size: 23px;
+    color: #A98851;
+    font-family: openlight;
+    font-weight: 600;
+}
+.hash p{
+    margin: 15px 230px 35px 230px;
+    color: #5D5B5C;
+    font-family: openlight;
+    font-weight: 600;
+    font-size: 13px;
+}
+.hash_a{
+    color: #A98851;
+    margin-top: 20px;
+    font-family: opensemi;
+}
+.hash a:hover{
+    text-decoration: none;
+    color: #A6894A;
+}
+.shadow1{
+    box-shadow: 2px 10px 15px #A1A0A0;
+}
+
+/*gallery section css here*/
+.gallery{
+    margin: 150px 0 80px 0;
+}
+.gallery a{
+    background: #A6894A;
+    color: white;
+    padding: 10px;
+    padding: 6px 22px;
+    font-family: openlight;
+    font-weight: 550;
+}
+.gallery a:hover{
+    text-decoration: none;
+    color: white;
+}
+.gall_a{
+    margin: 80px 0 100px 0;
+}
+
+/*partners and users section css here*/
+.believe h4{
+    margin: 40px 0 15px 0;
+    color: #909090;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: openlight;
+}
+
+/*footer css here*/
+.address h5{
+    font-size: 12px;
+    font-family: opensemi;
+    margin: 20px 0;
+    color: #1d2124;
+}
+.address p{
+    line-height: 0;
+    font-size: 10px;
+    font-family: openlight;
+    font-weight: 600;
+}
+.explore_text ul li{
+    list-style: none;
+    margin-left: -25px;
+}
+.explore_text ul li a{
+    color: #1d2124;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: openlight;
+    line-height: 2.6;
+}
+.explore_text h4{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #605C5D;
+    font-family: opensemi;
+    margin-top: 25px;
+}
+
+
+.footer{
+    margin: 50px 0;
+}
+
+.icon{
+    margin: 10px;
+    color: #545454;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
