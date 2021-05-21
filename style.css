@@ -56,10 +56,23 @@
 
 /*img section css here*/
 .img_row{
-    background-image: url("images/bg-01.svg");
+    background-image: url("images/edited bg.jpg");
     background-size: cover;
     height: 450px;
     position: relative;
+}
+.img_row::after{
+    content: "";
+    top: 0;
+    left: -2px;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(
+            0deg
+            ,#f1d58c,#eec468 20%,#f7efe2 40%,#c4850e 60%,#e3b46a 80%,#e8bc78 90%,#c2830f);
+    transform: skewX(
+            30deg
+    );
 }
 .lead_text{
     color: #B86FAC;
@@ -67,6 +80,95 @@
     margin: 120px 0 0px -55px;
     font-size: 26px;
 }
+
+.image{
+    padding-top: 40%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -160px;
+}
+.image .gemstone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -60%;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(30deg);
+    overflow: hidden;
+}
+.image .gemstone img{
+    display: block;
+    margin-top: -66%;
+    margin-left: -145%;
+    width: 284%;
+    height: auto;
+    transform: skewX(-30deg);
+}
+.image .pattern{
+    top: 0;
+    left: 0;
+    right: -60%;
+    bottom: 0;
+    background-color: #320f2f;
+    transform: skewX(30deg);
+    overflow: hidden;
+}
+.image .pattern:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    right: 0;
+    bottom: 0;
+    background: url(images/nb2.jpg) 50% 50% repeat #f1f0ec;
+    transform: skewX(-30deg);
+}
+.image:after{
+    content: "";
+    position: absolute;
+    top: 154px;
+    left: 985px;
+    bottom: -166px;
+    width: 2px;
+    background: linear-gradient(
+            0deg
+            ,#f1d58c,#eec468 20%,#f7efe2 40%,#c4850e 60%,#e3b46a 80%,#e8bc78 90%,#c2830f);
+    transform: skewX(26.3deg);
+}
+.image:before{
+    content: "";
+    position: absolute;
+    top: 154px;
+    left: 985px;
+    bottom: -166px;
+    width: 2px;
+    background: linear-gradient(
+            0deg
+            ,#f1d58c,#eec468 20%,#f7efe2 40%,#c4850e 60%,#e3b46a 80%,#e8bc78 90%,#c2830f);
+    transform: skewX(26.3deg);
+}
+
+
+.image .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.image .background .lazyload_wrapper{
+    position: absolute;
+    top: 154px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
 
 /*collections section css here*/
 .explore{
@@ -103,6 +205,40 @@
 .img2{
     background-image: url("images/chain2.png");
     background-size: cover;
+}
+
+.item .text h2{
+    line-height: 1.2;
+    color: #aa8c51;
+    font-size: 32px;
+    font-family: opensemi;
+    font-weight: 300;
+}
+.item .text p{
+
+}
+.colornew{
+    color: #aa8c51!important;
+}
+
+.item .text .background:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: -30%;
+    bottom: 0;
+    background-image: url(images/nb2.jpg) 50% 50% repeat #f1f0ec;
+    width: 600px;
+    height: 428px;
+    transform: skewX(
+            30deg
+    );
+}
+.item .text:after{
+    content: "";
+    right: -2px;
+    width: 2px;
+    background: linear-gradient(0deg,#f1d58c,#eec468 20%,#f7efe2 40%,#c4850e 60%,#e3b46a 80%,#e8bc78 90%,#c2830f);
 }
 
 /*bespoke section css here*/
